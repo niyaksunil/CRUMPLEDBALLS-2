@@ -34,14 +34,14 @@ function draw() {
 	 middleBox.display();
  	
 // calling the function Keypressed in Draw
- 	KeyPressed();
+ 	
   	drawSprites();
 }
 
 // creating the function Keypressed
-function KeyPressed(){
+function keyPressed(){
 	if (keyCode === UP_ARROW ) {
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:1,y:-3});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:22,y:-40});
     }
 
 }
